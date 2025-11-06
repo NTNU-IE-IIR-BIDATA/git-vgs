@@ -14,7 +14,7 @@ Etter denne oppgaven skal du kunne å:
 
 ## 1.1 - Oppsett av git-config
 
-:bulb: I denne seksjonen skal vi sette opp konfigurasjon som beskriver "hvem du er" i git. Du kan hoppe over denne delen om dette er alt noe du har satt opp. Om `git config --global user.name` og `git config --global user.email` returnerer ditt navn og epost-adresse, har du alt satt dette opp.
+:bulb: I denne seksjonen skal vi sette opp konfigurasjon som beskriver "hvem du er" i git. Du kan hoppe over denne delen om dette er noe du alt har satt opp. Om `git config --global user.name` og `git config --global user.email` returnerer ditt navn og epost-adresse, har du alt satt dette opp.
 
 :pencil2: Konfigurer navn og epost i git-konfigurasjonen din
 
@@ -38,6 +38,17 @@ git config --global core.editor "code --wait"
 ```
 
 ## 1.3 - Opprett git repository
+Du skal nå lage ditt første **repository**. Et Repository er et **_arkiv_** der vi kan ta vare på historikken til filene i mappen.
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <img src="../images/1-working-directory-og-repository-1.png" alt="Alt Text" width="500">
+</div>
+
+I praksis er dette _arkivet_ lagret i en **skjult mappe** i prosjekt-mappen din:
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <img src="../images/1-working-directory-og-repository-2.png" alt="Alt Text" width="500">
+</div>
 
 :pencil2: Opprett en ny tom katalog på maskinen din. (F.eks. `git-workshop-files`). Sørg for at du står i denne katalogen i terminalen din.
 
@@ -50,7 +61,13 @@ Initialized empty Git repository in /[sti til katalog]/git-workshop-files/.git/
 
 ## 1.4 - Første git commit
 
-:pencil2: Legg til en fil som heter `README.md`. Legg en passende tekst i filen (Eksempel: `"Techschool git workshop"`).
+:pencil2: Legg til en fil som heter `README.md`. Legg en passende tekst i filen (Eksempel: `"Fagdag git workshop"`).
+
+Nå skal vi lagre en kopi av filene våre til repositoriet. Typisk arbeidsprosess er som følger:
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <img src="../images/1-arbeidsflyt.png" alt="Alt Text" width="600">
+</div>
 
 :pencil2: Sjekk status på fil med å bruke kommandoen `git status`. Her bør du se filen du la til under `Untracked files`. Dette betyr at filen ligger i filsystemet, men er ikke ennå lagt til i "staging area". 
 
@@ -75,10 +92,29 @@ Initialized empty Git repository in /[sti til katalog]/git-workshop-files/.git/
   <img src="../images/1-git-log-initial-commit.png" alt="Alt Text" width="500">
 </div>
 
-
 :bulb: Du har nå opprettet et git-repository og lagt inn første commit via kommandolinjen. Bra jobba! Nå har vi alt arbeid lokalt på egen maskin, men vi ønsker gjerne å sjekke inn koden et sentralt sted.
 
-## 1.5 - Opprett Github-repository
+## 1.5 - Sette eget prosjekt under versjonskontroll
+
+Velg et prosjekt du har jobbet med på skolen. Finn frem til mappen på din harddisk der prosjektet ligger.
+
+:pencil2: Åpne et **terminalvindu** og gå til mappen der prosjektet ditt ligger. Dette gjør du ved å skrive `cd sti-til-mappe`. Du kan også skrive `cd `i terminalvinduet, og deretter finne frem til mappen i filutforskeren din. Venstreklikk på mappen, hold musknappen nede og dra mappen over til terminal-vinduet. Da slipper du å skrive inn stien til mappen manuelt:-) 
+
+## 1.6 - Opprett Github-repository
+
+Github tilbyr muligheten for å oppbevare en kopi av ditt repository på en server i "skyen". Dete er nyttig og lurt for å sikre at du ikke mister filer og viktige endringer dersom datamaskinen din skulle bli ødelagt (harddisk kræsj, mistet datamaskinen i basenget el.l.). Skal du samarbeide med andre, er det svært viktig at man har et felles repository som vi holder oppdatert med koden vår.
+
+Et typisk scenario når man jobber i team:
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <img src="../images/1-distribuert-git.png" alt="Alt Text" width="600" >
+</div>
+
+Arbeidsflyten utvides da som følger:
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <img src="../images/1-arbeidsflyt-github.png" alt="Alt Text" width="600" >
+</div>
 
 :pencil2: Opprett et Github-repository på github.com. Har du ikke en github-konto, må du opprette dette. Gå inn på din profil og velg fane "Repositories". Her vil du finne en stor grønn knapp med tittel "New"
 
@@ -86,6 +122,7 @@ Initialized empty Git repository in /[sti til katalog]/git-workshop-files/.git/
   <img src="../images/nytt-repo.png" alt="Alt Text" width="400" >
 </div>
 
+MEN før vi går videre: Vi må generere et nøkkelsett slik at vi kan kommunisere med GitHub på en trygg måte. Du finner instruksjoner om hvordan du går frem for å lage SSH-nøkler her: [SSH-nøkler](../ssh-keys/)
 
 Velg et passende navn under **`Repository name`** (Forslag `techschool-git-workshop`). Ikke velg noen andre innstillinger, og trykk **`Create repository`**.
 

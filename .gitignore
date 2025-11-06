@@ -1,0 +1,31 @@
+# Build artifacts
+target/
+build/
+out/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+# Exceptions for VS Code settings you might want to version control
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.pid
+*.orig

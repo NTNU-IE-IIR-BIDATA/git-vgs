@@ -1,4 +1,4 @@
-# Oppgave 2 - Brancher og konflikter
+# Oppgave 2 - Brancher (greiner) og konflikter
 
 ## :bulb: Mål med Oppgave 2
 
@@ -7,6 +7,9 @@ Etter denne oppgaven skal du kunne å:
 - Opprette brancher
 - Merge brancher
 - Håndtere konflikter
+
+## 2.1 - kort om greiner (repetisjon)
+
 
 ## 2.1 - Første feature branch
 
