@@ -8,6 +8,14 @@ Dette oppgavesettet er laget for å kunne gjennomføres i flere workshops.
 - Oppgavene 1 - 5 omhandler bruk av git og en introduksjon til Github. 
 - Oppgavene 6 - 8 omhandler bruk av Github Actions for å etablere en continuous integration pipline for automatisk sjekk av kodekvalitet / bygg.
 
+---
+## Innhold
+
+- [Oppsett på egen maskin](#oppsett-på-egen-maskin)
+- [Kom igang](#kom-igang)
+- [Øvelser](#øvelser)
+- [Symboler og ikoner du finner igjen i oppgavene](#symboler-og-ikoner-du-finner-igjen-i-oppgavene)
+---
 
 ## Oppsett på egen maskin
 
