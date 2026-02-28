@@ -9,6 +9,15 @@ Dette oppgavesettet er laget for å kunne gjennomføres i flere workshops.
 - Oppgavene 6 - 8 omhandler bruk av Github Actions for å etablere en continuous integration pipline for automatisk sjekk av kodekvalitet / bygg.
 
 
+## Innholdsfortegnelse
+
+- [Oppsett på egen maskin](#oppsett-på-egen-maskin)
+  - [Git](#git)
+  - [Editor](#editor)
+- [Kom igang](#kom-igang)
+- [Øvelser](#øvelser)
+  - [Symboler og ikoner du finner igjen i oppgavene](#symboler-og-ikoner-du-finner-igjen-i-oppgavene)
+
 ## Oppsett på egen maskin
 
 ### Git
