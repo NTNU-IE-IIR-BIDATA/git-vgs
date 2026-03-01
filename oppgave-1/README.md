@@ -102,7 +102,7 @@ Velg et prosjekt du har jobbet med på skolen. Finn frem til mappen på din hard
 
 ## 1.6 - Opprett Github-repository
 
-Github tilbyr muligheten for å oppbevare en kopi av ditt repository på en server i "skyen". Dete er nyttig og lurt for å sikre at du ikke mister filer og viktige endringer dersom datamaskinen din skulle bli ødelagt (harddisk kræsj, mistet datamaskinen i basenget el.l.). Skal du samarbeide med andre, er det svært viktig at man har et felles repository som vi holder oppdatert med koden vår.
+Github tilbyr muligheten for å oppbevare en kopi av ditt repository på en server i "skyen". Dette er nyttig og lurt for å sikre at du ikke mister filer og viktige endringer dersom datamaskinen din skulle bli ødelagt (harddisk kræsj, mistet datamaskinen i basenget el.l.). Skal du samarbeide med andre, er det svært viktig at man har et felles repository som vi holder oppdatert med koden vår.
 
 Et typisk scenario når man jobber i team:
 
@@ -116,7 +116,10 @@ Arbeidsflyten utvides da som følger:
   <img src="../images/1-arbeidsflyt-github.png" alt="Alt Text" width="600" >
 </div>
 
-:pencil2: Opprett et Github-repository på github.com. Har du ikke en github-konto, må du opprette dette. Gå inn på din profil og velg fane "Repositories". Her vil du finne en stor grønn knapp med tittel "New"
+:pencil2: Dersom du ikke allerede har en konto på GitHub, så må du opprette en. Gå til [https://github.com](https://github.com/), og klikk på knappen "Sign up" i øverste høyre hjørne. Følg deretter instruksjonene. 
+Det er lurt å tenke seg litt om i forhold til brukernavn. Ikke velg et "usakelig" brukernevn, men et navn som er relatert til ditt eget navn.
+
+:pencil2: Opprett et Github-repository på github.com. Gå inn på din profil og velg fane "Repositories". Her vil du finne en stor grønn knapp med tittel "New"
 
 <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
   <img src="../images/nytt-repo.png" alt="Alt Text" width="400" >
