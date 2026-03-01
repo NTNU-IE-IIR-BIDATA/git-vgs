@@ -8,6 +8,8 @@ Dette oppgavesettet er laget for å kunne gjennomføres i flere workshops.
 - Oppgavene 1 - 5 omhandler bruk av git og en introduksjon til Github. 
 - Oppgavene 6 - 8 omhandler bruk av Github Actions for å etablere en continuous integration pipline for automatisk sjekk av kodekvalitet / bygg.
 
+Det finnes også et sett av slides som gir en innføring i versjonskontroll generelt og git spesielt, som du kan finne her: [Introduksjon Verjonskontroll og Git](presentation/Introduksjon%20Versjonskontroll%20og%20Git.pdf)
+
 ---
 ## Innhold
 
