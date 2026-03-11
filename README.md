@@ -19,6 +19,15 @@ Det finnes også et sett av slides som gir en innføring i versjonskontroll gene
 - [Symboler og ikoner du finner igjen i oppgavene](#symboler-og-ikoner-du-finner-igjen-i-oppgavene)
 ---
 
+## Innholdsfortegnelse
+
+- [Oppsett på egen maskin](#oppsett-på-egen-maskin)
+  - [Git](#git)
+  - [Editor](#editor)
+- [Kom igang](#kom-igang)
+- [Øvelser](#øvelser)
+  - [Symboler og ikoner du finner igjen i oppgavene](#symboler-og-ikoner-du-finner-igjen-i-oppgavene)
+
 ## Oppsett på egen maskin
 
 ### Git
